@@ -1,0 +1,26 @@
+body {
+    background-color: grey;
+
+}
+
+
+
+
+#p1 {
+
+    font-family: 'Courier New', Courier, monospace;
+    color: darkturquoise;
+    background-color: blue;
+    opacity: 0.5;
+ 
+}
+
+#p2 {
+    color: rgba(0, 206, 209, 0.5);
+    background-color: black;
+}
+
+#p3 {
+    color: #00ced1;
+    background-color: orange;
+}
