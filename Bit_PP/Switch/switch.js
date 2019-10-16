@@ -291,38 +291,28 @@ console.log(result)
 //Write a program that takes as input two numbers and a string denoting the operation (“+”, “-”, “*”, “/”) and prints out the appropriate result. 
 //Watch out for division by zero!
 
-var number1 = 5;
-var number2 = 9;
-var operator = "/"
-var result = ""
+var operation = '+';
+var a = 5;
+var b = 16;
 
-switch (operator) {
-    case "+":
-        result = number1 + number2;
-        break;
-    case "-":
-        result = number1 - number2;
-        break;
-    case "*":
-        result = number1 * number2;
-        break;
-    case "/": if (number2 === 0) {
-        result = number1 / number2;
-    }
-
-        result = "Input another number");
-
-
-
-
-        break;
-    default:
-        result = "Input operator";
-        break;
-
-
-
-
+switch (operation) {
+   case '+':
+       console.log(a+b);
+       break;
+   case '-':
+       console.log(a-b);
+       break;
+   case '*':
+       console.log(a*b);
+       break;
+   case '/':
+       if (b == 0) {
+            console.log('Division by zero!');
+       }
+       else {
+            console.log(a/b);
+       }
+       break;
+   default:
+       console.log('Unknown operation!')
 }
-
-console.log(result)
