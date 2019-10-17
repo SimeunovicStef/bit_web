@@ -1,0 +1,68 @@
+body {
+    
+    
+    margin-right: 20px;
+    padding: 0;
+   
+}
+
+.yellowP {
+    background-color: yellow;
+    width: 400px;
+    height: 500px;
+    max-width: 300px;
+    overflow:hidden;
+}
+
+.redP {
+    background-color: red;
+    width:600px;
+    height:300px;
+    max-height: 200px;
+}
+
+.para1, .para2, .para3 {
+    
+    background-color: yellow;
+    border-width: 5px;
+    padding: inherit;
+}
+.para1, .para3 {
+border: dashed red;
+padding: 50px;
+}
+
+ .para2 {
+
+    visibility:hidden;
+    border:solid green;
+    padding-top: 50px;
+    width: 400px;
+    margin: 100px auto 50px ;
+
+}
+
+.para1 {
+    width: 300px;
+    margin: 50px;
+}
+
+.para3 {
+    visibility:hidden;
+    width: 200px;
+    margin-left: 100px;
+} 
+
+.heading {
+    width: 960px;
+    box-sizing: border-box;
+    padding-top: 50px;
+padding-bottom: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: blue;
+    color: red;
+font-family: cursive;
+box-shadow: 0 0 15px coral;
+border-radius: 20px;
+}

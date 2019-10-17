@@ -83,3 +83,8 @@ if (index[8] % 3 === 0) {
 
 console.log(divisibleBy3);
 
+
+
+
+
+
