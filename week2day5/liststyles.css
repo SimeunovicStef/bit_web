@@ -1,0 +1,111 @@
+/*.list1 {
+    list-style-type: circle;
+}
+.list2{
+    list-style-type: square;
+}
+
+.list3 {
+    list-style-type: upper-alpha;
+}
+
+.list4 {
+    list-style-type:  upper-roman;
+}
+
+.list5 {
+    
+    width: 200px;
+    list-style-image: url(twitter-16.png);
+    
+}
+
+.list6 {
+    width:200px;
+    list-style-position: inside;
+    
+}
+
+#phones td{
+
+    padding: 10px 10px;
+    vertical-align: center;
+    width: 200px;
+    height: 150px;
+  
+    font-weight: 550;
+   
+}
+#head  {
+    color:white;
+    background-color: rgb(196, 12, 12);
+}
+
+table img{
+    height: 100px;
+   
+}
+
+
+table {
+    margin:auto;
+    border-collapse:collapse;
+    background-color: white;
+    padding: 10px 10px;
+    font-family: arial;
+    
+}
+
+table tr:nth-child(odd) {
+    background-color: #dbd4d4;
+}
+
+table tr:hover {
+    background-color: yellow;
+}*/
+
+
+
+form {
+    margin: auto;
+    text-align: left;
+    width: 340px;
+    height:430px;
+    padding: 30px 20px 40px 20px;
+    background-color: hsl(0, 0%, 90%);
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px 0px 20px 0px;
+
+}
+h1 {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    margin: 20px 30px 10px;
+    font-size: 50px
+    
+}
+
+    span {
+    color:orange;
+}
+
+input {
+    box-sizing: content-box;
+    width: 330px;
+    height: 25px;
+    border-radius: 6px;
+    margin-top: 3px;
+    margin-bottom: 18px;
+    box-shadow: 0 0 5px black;
+}
+
+button {
+    color: white;
+    width: 330px;
+    height: 36px;
+    border-radius: 7px;
+    margin-top:13px;
+    background-color: rgb(168, 44, 44);
+    
+}
