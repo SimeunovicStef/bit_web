@@ -1,0 +1,53 @@
+div {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    background-color: rgb(233, 225, 225);
+    height: 300px;
+    margin-left: 100px;
+    width: 1300px;
+}
+
+.origin li:nth-child(odd) {
+    background-color: gray;
+}
+
+.origin {
+    background-color: 
+    rgb(233, 208, 66);
+    padding:0;
+    list-style-type: none;
+}
+
+
+.origin li {
+    position:relative;
+    width: 200px;
+    display: inline-block;
+    background-color: rgb(233, 208, 66);
+    padding: 10px 20px;
+    border-collapse: collapse;
+    text-align: center;
+    
+}
+
+.origin > li:active {
+    background-color: #ddd
+}
+
+.origin > li:hover li{
+    visibility: visible;
+   display: block;
+    padding: 10px 20px;
+    background-color: #fff
+}
+
+.sub li {
+    position: absolute;
+    min-width: 150px;
+    
+    left: -93px;
+    top: 40px;
+    display: none;
+}
+
+
