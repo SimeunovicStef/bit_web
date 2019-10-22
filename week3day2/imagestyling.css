@@ -1,0 +1,30 @@
+body {
+  background-image: url(https://www.mountainbikeworldwide.com/wp-content/uploads/2017/04/Mountain-biking-chile-patagonia-tour-45.jpg);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#image1 {
+  height: 200px;
+
+  display: block;
+  margin-left: auto;
+}
+
+#image2 {
+  width: 200px;
+
+  display: block;
+  margin: auto;
+}
+
+#image3 {
+  height: 200px;
+  width: 200px;
+
+  display: block;
+  margin-right: auto;
+}

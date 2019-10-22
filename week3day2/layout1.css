@@ -1,0 +1,129 @@
+#navigation {
+  width: 960px;
+  height: 30px;
+  background-color: rgb(192, 45, 45);
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+  list-style-type: none;
+  margin: auto;
+  border-spacing: 50px;
+  text-align: right;
+  float: center;
+  font-size: 20px;
+  padding-right: 20px;
+}
+
+li {
+  display: inline;
+  vertical-align: middle;
+}
+
+#main {
+  width: 1020px;
+  float: center;
+  margin-left: 433px;
+}
+
+ul .list1 {
+  float: left;
+  margin-left: 390px;
+  text-align: left;
+  width: 320px;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+ul .list2 {
+  float: center;
+  margin-left: 50px;
+  text-align: left;
+  width: 320px;
+  height: 100%;
+  font-size: initial;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+#side1 {
+  font-family: Arial, Helvetica, sans-serif;
+  float: right;
+  text-align: left;
+  width: 300px;
+  height: 200px;
+  padding: 20px;
+  font-size: large;
+  display: inline-block;
+  box-sizing: border-box;
+  background-color: rgb(223, 154, 26);
+  margin-right: 450px;
+  margin-top: 1px;
+}
+.span2 {
+  margin-bottom: 10px;
+}
+
+ul .list3 {
+  float: left;
+  margin-left: 390px;
+  text-align: left;
+  width: 320px;
+  display: inline-block;
+  box-sizing: border-box;
+  margin-top: 50px;
+}
+
+ul .list4 {
+  float: center;
+  margin-left: 50px;
+  text-align: left;
+  width: 320px;
+  height: 100%;
+  font-size: initial;
+  display: inline-block;
+  box-sizing: border-box;
+  margin-top: 50px;
+}
+
+ul .list5 {
+  float: right;
+  margin-right: 430px;
+  text-align: left;
+  width: 320px;
+  display: inline-block;
+  box-sizing: border-box;
+  margin-top: 50px;
+}
+
+ul .list6 {
+  float: left;
+  margin-left: 390px;
+  text-align: left;
+  width: 320px;
+  display: inline-block;
+  box-sizing: border-box;
+  margin-top: 50px;
+}
+
+ul .list7 {
+  float: center;
+  margin-left: 50px;
+  text-align: left;
+  width: 320px;
+  height: 100%;
+  font-size: initial;
+  display: inline-block;
+  box-sizing: border-box;
+  margin-top: 50px;
+}
+
+ul .list00 {
+  width: 10px;
+  height: 10px;
+}
+
+ul .list1 img {
+  color: red;
+}
+
+ul .span1 {
+}
