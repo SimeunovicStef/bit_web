@@ -197,3 +197,87 @@
 
 // }
 
+
+
+
+
+//9
+// var a = [1, 3, 5, 7, 6, 5, 8, 9, 5, 7, 8];
+// var e = 5;
+// for (i = 0; i < a.length; i++) {
+//     if (a[i] === e) {
+//         delete a[i];
+//     }
+// }
+
+// console.log(a)
+
+// var a = [3, 2, 8, 2, 6, 11];
+// var b = [];
+// for (i = 0; i < a.length; i++) {
+//     if (a[i] !== 2) {
+//         b[b.length] = a[i];
+//     }
+
+// }
+// console.log(b)*/
+
+//10
+
+// var a = [2, -2, 33, 12, 5, 8];
+// var e = 78;
+// var z = [];
+
+// for (i = 0; i < a.length; i++) {
+//     if (i < 3) {
+//         z[z.length] = a[i];
+//     } else if (i === 3) {
+//         z[z.length] = e;
+//         z[z.length] = a[i];
+//     }
+
+//     else {
+//         z[z.length] = a[i];
+//     }
+
+// }
+// console.log(z)
+
+
+// var size = 10;
+// var a = "";
+
+// for (i = 0; i < size; i++) {
+//     a += '* ';
+
+// }
+// for (i = 0; i < size; i++) {
+//     console.log(a)
+// }
+
+
+// var size = 4;
+// var a = "";
+
+// for (i = 0; i < size; i++) {
+//     for (j = 0; j < i; j++) {
+//         a += '* ';
+
+//     }
+//     a += "\n";
+// }
+// console.log(a)
+
+// var size = 3;
+// var b = "";
+// var z = "";
+// for (i = 0; i < size; i++) {
+
+//     b += "* ";
+//     z += b + "\n";
+
+
+// }
+// console.log(z)
+
+
