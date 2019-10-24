@@ -281,3 +281,22 @@
 // console.log(z)
 
 
+var size = 3;
+var b= "";
+var d="";
+
+for (i=0; i<size;i++) {
+    b+= "* * * *";
+    d+="\n-";
+    d+="-";
+    
+    
+    
+    
+
+
+}
+
+console.log (b)
+
+console.log("* * *\n4,5,6")
