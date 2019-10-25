@@ -295,3 +295,4 @@ for (var row = 0; row < size; row++) {
     shape += '\n';
 }
 console.log(shape)
+

@@ -136,18 +136,113 @@ console.log(string("aston martin 1"));
 
 
 function prime(a) {
-
-    c = 0;
-    x = "false";
-    for (var i = 0; i < 10; i++) {
-        if (a % 1 === 0 && a % a === 0) {
-            c = c++;
-            if (c === 2);
-            d = "true";
+    for (var i = 2; i < a; i++) {
+        if (a % i === 0) {
+            return "Not Prime!";
         }
+    }
+
+    return "Prime!";
+}
+console.log(prime(5));
 
 
+//Zadatak 9. Write a function that replaces spaces in a string with provided separator. If separator is not provided, use “-” (dash) as the default separator.
+
+//  "My random string", "_" -> "My_random_string"
+//"My random string", "+" -> "My+random+string"
+//  "My random string" -> "My-random-string"
+
+
+function replace(text, letter) {
+
+    var c = "";
+    letter = "_"
+
+    for (var i = 0; i < text.length; i++) {
+        if (text[i] === " ") {
+            c += n;
+        } else {
+            c += text[i];
+        }
     }
     return c;
+
 }
-console.log(prime());
+
+console.log(replace("My random string", ""));
+
+/* Zadatak 10. Write a function to get the first n characters and add “...” at the end of newly created string.
+ */
+
+
+function replace(text, number) {
+
+    var c = "";
+    letter = "...";
+
+    for (var i = 0; i < number; i++) {
+        c += text[i];
+    }
+    c += letter;
+    return c;
+
+}
+
+console.log(replace("My random string", 7));
+
+// Zadatak 11. 
+// Write a function that converts an array of strings into an array of numbers. Filter out all non-numeric values.
+// ["1", "21", undefined, "42", "1e+3", Infinity] -> [1, 21, 42, 1000]
+
+
+
+
+function stringe(a) {
+    var c = [];
+
+    for (var i = 0; i < a.length; i++) {
+        var converted = parseFloat(a[i]);
+
+        if (Number.isNaN(converted) || !Number.isFinite(converted)) {
+            continue;
+        }
+
+        c[c.length] = converted;
+    }
+
+    return c;
+
+}
+
+console.log(stringe(["1", "21", undefined, "42.5", "1e+3", Infinity]))
+
+
+// Zadatak 12. 
+// Write a function to calculate how many years there are left until retirement based on the year of birth. Retirement for men is at age of 65 and for women at age of 60. If someone is already retired, a proper message should be displayed.
+
+function retirement(a, b) {
+    var m = "";
+    var f = "";
+
+    if (a < 65 && b === 'male') {
+        m = (65 - a) + "years until retirement";
+    }
+    if (a < 60 && b === 'female') {
+        f = (60 - a) + 'years until retirement';
+    }
+    else {
+        result = 'person is already retired';
+    }
+    result = m + f;
+    return result;
+
+}
+
+console.log(retirement(52, 'female'))
+
+// 13. Write a function to humanize a number (formats a number to a human-readable string) with the correct suffix such as 1st, 2nd, 3rd or 4th.
+// 1 -> 1st
+// 11 -> 11th
+
+
