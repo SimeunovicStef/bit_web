@@ -68,35 +68,94 @@ function num(n) {
 num(5)
 console.log(result)
 
-// 7.
-
-// function number(e) {
-//     a = e + "";
-//     del = a.length;
 
 
-//     return del;
-// }
 
-// number(10911)
-// console.log(del)
+// 5. Write a program that draws a square of a given size. For example,  if the size of square is 5 the program should draw:
 
-8.
 
-function num(e) {
-    vara = [2, 4, 7, 8, 7, 7, 1];
+function b(dimension) {
+    var a = "";
+    var b = "";
+
+    for (var i = 0; i < dimension; i++) {
+        a = ""; //resetuje row
+
+        for (var j = 0; j < dimension; j++) {
+            if (j === 0 || j === dimension - 1 || i === 0 || i === dimension - 1) {
+                a += "*";
+
+            } else {
+                a += ' ';
+            }
+
+        }
+        b += a + '\n';
+    }
+    return b;
+}
+
+console.log(b(6));
+
+
+
+
+// 7. // 7. Write a program that calculates a number of digits of a given number
+
+
+function number(e) {
+    a = e + "";
+    del = a.length;
+
+
+    return del;
+}
+
+number(1091)
+console.log(del)
+
+// 8. Write a program that calculates a number of appearances of a given number in a given array.
+//Inputs: 
+
+function appearances(a, e) {
+    var c = 0;
     var result = [];
-    for (i = 0; i < a.length; i++) {
+    for (var i = 0; i < a.length; i++) {
         if (a[i] === e) {
-            result += a[i];
+            c++;
         }
 
 
 
 
     }
-    return result;
+    return c;
 }
 
-num(7)
-console.log(result)
+var a = [2, 4, 7, 8, 7, 7, 1, 7];
+var e = 7
+console.log(appearances(a, e));
+
+// 9. Write a program that calculates the sum of odd elements of a given array. 
+// var a = [];
+// var c = 0;
+// function odd(a) {
+//     for (var i = 0; i < a.length; i++) {
+//         if (a[i] % 2 === 1) {
+//             c += a[i];
+//         }
+//     }
+//     return c;
+// }
+// console.log(odd([2, 4, 7, 8, 7, 7, 1, 3]));
+
+/* Zadatak 10. Write a program that calculates the number of appearances of a letter a in a given string. Modify the program so it calculates the number of both letters a and A.
+ */
+var c = "";
+function letter(a) {
+    for (var i = 0; i < a.length; i++) {
+        if (a[i] === "a") {
+            var c+= i;
+        }
+    }
+}
