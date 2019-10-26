@@ -281,6 +281,7 @@
 // console.log(z)
 
 
+<<<<<<< HEAD
 var size = 3;
 var b= "";
 var d="";
@@ -300,3 +301,19 @@ for (i=0; i<size;i++) {
 console.log (b)
 
 console.log("* * *\n4,5,6")
+=======
+var size = 4;
+var shape = "";
+for (var row = 0; row < size; row++) {
+    var char = "* ";
+    if (row !== 0 && row !== size - 1) {
+        char = "- "
+    }
+    for (var column = 0; column < size; column++) {
+        shape += char;
+
+    }
+    shape += '\n';
+}
+console.log(shape)
+>>>>>>> f9589eba413176c6fab941c767ec64bdb49466a1

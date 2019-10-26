@@ -7,6 +7,16 @@ body {
   background-size: cover;
 }
 
+
+main{
+background-color: rgb(196, 31, 31);
+font-size: larger;
+text-align: center;
+}
+
+article {
+font-family: monospace;
+padding: 10px;}
 #image1 {
   height: 200px;
 
