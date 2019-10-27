@@ -153,6 +153,9 @@ main #div3 {
 p {
     font-family:'reuglar' ;
 }
+/*--PERSONAL BLUE CARDS --*/
+
+
 #personal div {
     width: 30%;
     height: 212px;
@@ -248,9 +251,11 @@ margin: 8% 4% 3% 14%;
     text-align: center;
     text-transform: uppercase; 
  font-size: 100%;
+ font-weight: 900;
    }
 
 
+/*--INFORMATION CARDS--*/
 
 
 section#info.cf {
@@ -386,4 +391,34 @@ box-sizing: border-box;
         width: 26%;
 
     }
+
+    nav.footer.cf {
+       color:white;
+        text-align: center;
+        background-color: black;
+        font-size: 80%;
+        height:180px;
+
+
+    }
+    nav.footer.cf ul {
+        margin-right:50px;
+    }
+nav.footer ul li {
+    list-style-type: none;
+    
+    padding: 1px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-right: 10px;
+    font-size: 70%;
+    font-family: 'regular';
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    display: inline-block;
+
+}
 
