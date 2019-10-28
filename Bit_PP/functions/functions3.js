@@ -22,3 +22,4 @@ function paste(string, number, addition) {
     }
 }
 console.log(paste("Aston Martin", 3, "MM"));
+
