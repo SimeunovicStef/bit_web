@@ -88,6 +88,8 @@ article .top {
 article{
     width:1200px;
     height: 690px;
+    margin-bottom: 9%;
+
 }
 button.blue1 {
     margin-top:13px;
@@ -105,10 +107,11 @@ button.blue1 {
     box-shadow: none;
     font-family: 'thin';
 }
-.diamond {
+p#diamond {
     text-align: center;
     text-transform: uppercase; 
- font-size: 500%;
+ 
+ margin-top:-3%;
 }
 content {
     text-align: center;
@@ -126,6 +129,10 @@ div main #div2 #img555 {
     float:left;
     margin:1%;
 }  
+main#ww1.cf {
+    margin-bottom:14%;
+    margin-top: -2%;
+}
 main #div1 {
    display: inline-block;
     width:26%;
@@ -164,6 +171,7 @@ p {
 }
 section#personal.cf{
     margin-left:5%;
+
 
 }
 #personal .personal1 {
@@ -243,16 +251,25 @@ margin: 8% 4% 3% 14%;
    #personal .personal3 h4 {
     float: left; 
     padding-top: 11%;
-    margin: 4% 3% 3% 2%;
+    margin: 4% 3% 0% 2%;
     color: white;
    }
    div #GitWUs  {
-       margin-top: 23%;
+    margin-top: 23%;
     text-align: center;
-    text-transform: uppercase; 
- font-size: 100%;
- font-weight: 900;
+    font-size: 180%;
+    font-weight: 800;
+    margin-bottom:-2%;
+
    }
+div#personal.cf {
+    margin-bottom:36%;
+    margin-left: 6%;
+    margin-top: -1%;
+max-width: 900px;
+    
+}
+   
 
 
 /*--INFORMATION CARDS--*/
@@ -357,7 +374,7 @@ div.pink img {
         margin-top:50px;
     
     width: 31%;
-box-sizing: border-box;
+    box-sizing: border-box;
     margin:auto;
     display: inline;
     
@@ -398,6 +415,7 @@ box-sizing: border-box;
         background-color: black;
         font-size: 80%;
         height:180px;
+        margin-top:-20%;
 
 
     }
@@ -419,6 +437,104 @@ nav.footer ul li {
     margin-inline-end: 0px;
     padding-inline-start: 40px;
     display: inline-block;
+}
+
+/* @media all and (min-width: 1200px) {
+    #whoWeAre main article, #whoWeAre main img{
+        width: 32%;
+        margin-right: 2%;
+    }
+
+    #whoWeAre main article:nth-child(3) {
+        margin-right: 0%;
+    }
+
+    #whatPeopleSays main article{
+        width:32%;
+        margin-right: 2%;
+    }
+
+    #whatPeopleSays main article:nth-child(3){
+        margin-right: 0%;  
+    }
+
+    #getInTouch>main>div{
+        width: 25%;
+    }
+}
+
+/* Breakpoint: TABLET  768px  */
+/* 
+@media all and (max-width:1200px) {
+    #whoWeAre main article, #whoWeAre main img{
+        width: 49%;
+        margin-right: 1%;
+    }
+    #whoWeAre main article:nth-child(2) {
+        margin-right: 0%;
+    }
+
+    #whatPeopleSays main article{
+        width:49%;
+        margin-right: 1%;
+        margin-top: 1%;
+    }
+
+    #whatPeopleSays main article:nth-child(2n){
+        margin-right: 0%;  
+    }
+
+    #getInTouch>main>div{
+        width: 50%;
+    }
 
 }
 
+/* Breakpoint: MOBILE   */
+
+/* @media all and (max-width: 767px) {
+
+
+    .logo{
+        position: static;
+        display: block;
+        text-align: center;
+        margin: 30px;
+        color:#d7a058;
+        font-size: 40px;
+    }
+
+    .logo span {
+        color: #939393;
+        border-top: solid 6px #939393;
+        border-bottom: solid 6px #939393;
+        border-left: solid 6px #939393;
+        padding-left: 5px;
+        font-size: 40px;
+    }
+
+    #container header nav ul{
+        position: static;
+        width: 90%;
+        display: block;
+        font-size: 15px;
+        background-color: #7fc2f7;
+        margin: 30px auto;
+    }
+
+    #container header nav ul li {
+        display: block;
+        text-align: center;
+        font-size: 15px;
+        padding: 15px;
+    }
+
+    #container header h1 {
+        top: 65%;
+        font-size: 2.1em;
+    }
+
+    #container header button {
+        top: 83%;
+        left: 39%;
+    }  */
