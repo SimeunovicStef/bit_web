@@ -5,6 +5,8 @@
     margin: 0px auto;
     width: 100%;
     z-index: 1;
+    margin-top:-10px;
+   
     p {
         position: relative;
         bottom: 6px;
@@ -15,6 +17,7 @@
         z-index: 3;
         font-size: 3em;
         padding: 1px;
+        border-radius: 50%;
     }
 
     div {    
