@@ -1,0 +1,52 @@
+.img1 {
+    width:100%;
+    
+}
+h3 {
+    margin-top: 30px;
+    text-align: center;
+    line-height: 50px;
+    
+}
+h1 {
+    text-align:center;
+}
+div.main1 {
+    border: solid 2px black;
+    padding:0px;
+}
+
+.col-12 {
+    text-align: left;
+    
+}
+
+.switch {
+    margin-top:180px;
+}
+
+.bold, .bord {
+    border: solid 1px black;
+    padding:0px;
+}
+.tabela {
+    padding: 0px 0px;
+    margin-bottom: 30px;
+}
+.bold {
+    font-weight: bold;
+}
+iframe {
+    width: 100%;
+    
+}
+.row{
+    margin: 0px;
+}
+
+h4 {
+    margin-top: 50px;
+}
+div.col-12 {
+ margin-bottom: 10px;
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./posters/form1.css">
+    <title>New Criminal</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <header class="row">
+            <div class="col-12">
+                <a href="posters/index.html">Back To Homepage</a>
+            </div>
+            <div class="row">
+                <form action="" method="POST">
+                    <div class="col-12">
+                        <legend>Top Headline</legend>
+                        <p>Headline text:
+                            <input type="text" name="headline_text" value="">
+                        </p>
+                    </div>
+
+                    <div class="col-12">
+                        <legend>Images</legend>
+                        <p class="row">Image 1:
+                            <input type="file" name="image_1" class="col-4">
+                        </p>
+                        <p class="row">Image 2:
+                            <input type="file" name="image_2" class="col-4">
+                        </p>
+                        <p class="row">Image 3:
+                            <input type="file" name="image_3" class="col-2">
+                        </p>
+                        <div class="row">
+                            <legend>Reward</legend>
+                            <p>Reward money:
+                                <input type="number" name="money" value="reward">
+                            </p>
+                        </div>
+                        <legend>Reward</legend>
+                        <p>Aliases:</p>
+                        <input type="text" name="aliases" value="">
+                        <p>Birth:</p>
+                        <input type="date" name="birth" value="birthdate">
+                        <p>Hair:</p>
+                        <input type="text" name="hair" value="">
+                        <p>Eyes:</p>
+                        <input type="text" name="eyes" value="">
+                        <p>Height:</p>
+                        <input type="number" name="height" value="">
+                        <p>Weight:</p>
+                        <input type="number" name="weight" value="weight">
+                        <p>Sex:</p>
+                        <select name="sex">
+                            <option value="female" selected='selected'>Female</option>
+                            <option value="male">Male</option>
+                        </select>
+
+                        <p>ID Number:</p>
+                        <input type="number" name="ID_number" value="ID_number" placeholder="">
+                        <p>Occupation:</p>
+                        <input type="text" name="occupation" value="">
+                        </fieldset>
+                        <br>
+                        <fieldset>
+                            <legend>Remarks</legend>
+                            <textarea name="remarks" placeholder="Remarks text" rows="7" cols="135"></textarea>
+                        </fieldset>
+                        <br>
+                        <fieldset>
+                            <legend>Caution</legend>
+                            <textarea name="caution" placeholder="Caution text" rows="7" cols="135"></textarea>
+                        </fieldset>
+                        <br>
+
+
+                        <button type='reset'>
+                            <img src="./images/reset.png" width="10" value="Reset">Reset
+                        </button>
+                        <button type='submit'>
+                            <img src="./images/submit.png" width="10" value="Create poster">Create poster
+                        </button>
+                </form>
+            </div>>
+        </header>
+    </div>
+</body>
+
+</html>
