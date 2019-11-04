@@ -1,0 +1,262 @@
+body {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+.cf ::before, .cf ::after {
+    content: " ";
+    display: table;
+}
+.cf ::after {
+    clear: both;
+}
+
+.head1 {
+    background-image: url("./img/main-banner.jpg")
+}
+
+.navbar {
+    color:white;
+}
+
+.navbar-light .navbar-brand{
+ color:white;   
+}
+span {
+    color:rgb(245, 100, 47);
+}
+
+div.col-12 {
+    text-align: center;
+    color:white;
+    width:
+}
+
+button.blue1 {
+    margin-top:4px;
+    margin-left:4%;
+    width:195px;
+    height:54px;
+    background-color: Transparent;
+    border-radius: 10%;
+    color:white;
+    border-radius: 10px 10px 10px 10px;
+    padding: 12px 60px;
+    text-align: center;
+    display: block-inline;
+    text-decoration: none;
+    font-size: 12px;
+    border: 1px solid white;
+    box-shadow: none;
+    font-family: 'thin';
+}
+
+button:hover {
+    background:rgb(245, 100, 47);
+    color:white; 
+}
+
+.slashdown {
+    margin-top:180px;
+    margin-bottom:30px;
+    text-align: center;
+} 
+
+
+div.row.bcn {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 90px;
+    margin-bottom: 100px;
+
+    
+  
+}
+
+div.col-2 {
+    text-align: center;
+    padding:20px;
+    width:100%;
+}
+
+
+p.cov1 {
+  border:1px solid grey;
+   padding: 30%;
+  border-radius: 50%;
+  width:100%;
+}
+
+.head2 {
+    background-image: url("./img/newsletter-background.jpg")
+}
+.head2 div.col-12 {
+    margin-top:60px;
+    margin-bottom:60px;
+    text-align: center;
+}
+.in1 {
+    width:400px;
+    border-radius: 10px 10px 10px 10px;
+    height: 54px;
+
+}
+.s1 {
+    width:100px;
+    margin-top:4px;
+    margin-left:2%;
+    width:195px;
+    height:54px;
+
+    background-color:rgb(245, 100, 47);
+    border-radius: 10%;
+    color:white;
+    border-radius: 10px 10px 10px 10px;
+    padding: 12px 60px;
+    text-align: center;
+    border:none;
+    text-decoration: none;
+    font-size: 15px;
+   
+    box-shadow: none;
+    font-family: 'thin';
+}
+
+.col-12.str1 {
+    margin-top:100px;
+    color:black;
+    text-align: center;
+    margin-bottom:100px;
+}
+
+.middle {
+    display: flex;
+    align-items: end;
+    width:100%;
+    
+}
+.middle img{
+    margin-top:30px;
+    align-items:center;
+    width:100%;
+}
+
+button.blue1.d1 {
+    width: 280px;
+    color:black;
+    border:1px solid grey;
+    margin: 90px auto;
+    font-size: 15px;
+    font-weight: bolder;
+
+}
+
+.test {
+    background-image: url("./img/testimonials-background.jpg");
+    padding:70px 70px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    text-align: center;
+    font-size: 30px;
+}
+
+.test p {
+    padding:20px 20px;
+}
+
+.test .p1 {
+    font-style: normal;
+    font-size: 25px;
+}
+
+
+div.col-12.t1 {
+    color:black;
+    margin: 50px auto;
+    text-align: center;
+    width:100%;
+
+}
+
+.col-3 h2 {
+    padding: 20px;
+}
+.col-3 .smol {
+    margin-left: 60px;
+    width:50% !important;
+}
+.col-3 p {
+    padding: 30px;
+}
+
+
+div.row.bot img {
+    align-items: center;
+    width:100%;
+    padding-top:10px;
+}
+
+div.row.bot img:hover {
+    border-bottom: solid 6px orangered;
+    margin-bottom:10px;
+    width: 110%;
+    
+}
+.col-12 tt{
+    width:100%;
+}
+.tt p span{
+    color: grey;
+    font-size: 120px;
+    width:100%;
+    padding:10px;
+}
+.tt p span:hover {
+    color: orangered;
+}
+
+.foot {
+    background-image: url("./img/contact-background.jpg")
+}
+.image {
+    opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgb(245, 100, 47);
+  }
+  
+  .container:hover .overlay {
+    opacity: 0.5;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  div.row.middle {
+    position:relative;
+    width:100%;
+}
