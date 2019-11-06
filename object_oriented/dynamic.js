@@ -120,3 +120,57 @@ getData('id2');
 // }
 // s);
 // clearInterval();
+
+// function colorSet() {
+//     var cl2 = document.getElementById('list2');
+//     cl2.className = 'novalista2';
+
+
+
+// } colorSet();
+
+// function listItems() {
+//     var lis1 = document.getElementsByTagName('li');
+//     for (i = 0; i < lis1.length; i++) {
+//         lis1[i].className = 'list3';
+//     }
+// }
+// listItems();
+
+
+// function reOrder() {
+//     var cl3 = document.querySelectorAll('ul');
+//     var c = cl3[cl3.length - 1].querySelectorAll('li');
+//     for (i = 0; i < c.length; i++) {
+//         c[i].className = 'newlist';
+//     }
+
+// }
+// reOrder();
+
+function newClass() {
+    var liel = document.getElementsByClassName("active")[0];
+    liel.className = "";
+
+    var g = document.documentElement.lastElementChild.firstElementChild.firstElementChild;
+    g.className = 'active';
+
+}
+newClass();
+
+
+
+// function screenAlert() {
+//     var msg = document.getElementById('nav').firstElementChild.textContent;
+
+//     alert(msg);
+
+// } screenAlert();
+
+function textReplace() {
+
+    var newMsg = document.getElementById('nav').childNodes[3].textContent;
+    document.getElementById('nav').lastElementChild.textContent = newMsg;
+
+
+} textReplace();
