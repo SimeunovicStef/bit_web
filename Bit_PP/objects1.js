@@ -211,5 +211,33 @@
 // var result = Createobject('Program1', 'JavaScript', 'bit-web', false);
 // console.log(result.completeStatus());
 
+//BUILT IN OBJECTS 1
+
+//1
+function duplicate(array1) {
+    for (var i = 0; i < array1.length; i += 2) {
+        array1.splice(i, 1, array1[i], array1[i]);
+    }
+    return array1;
+
+}
+console.log(duplicate([2, 4, 7, 11, -2, 1]));
 
 
+//2
+function remove(array2) {
+
+    array2.sort(function (a, b) {
+
+        return a - b;
+
+    });
+    for (i = 0; i < array2.length; i++) {
+        if (array2[i] === array2[i + 1] || array2[i] === array2[i - 1]) {
+            array2.splice(i, 1);
+        }
+
+    }
+    return array2;
+}
+console.log(remove([8, 13, 8, 9, 12, 8, 1, 1, 4, 13]));
