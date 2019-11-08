@@ -148,55 +148,55 @@
 // }
 // reOrder();
 
-// function newClass() {
-//     var liel = document.getElementsByClassName("active")[0];
-//     liel.className = "";
+function newClass() {
+    var liel = document.getElementsByClassName("active")[0];
+    liel.className = "";
 
-//     var g = document.documentElement.lastElementChild.firstElementChild.firstElementChild;
-//     g.className = 'active';
+    var g = document.documentElement.lastElementChild.firstElementChild.firstElementChild;
+    g.className = 'active';
 
-// }
-// newClass();
-
-
-
-// function screenAlert() {
-//     var msg = document.getElementById('nav').firstElementChild.textContent;
-
-//     alert(msg);
-
-// } screenAlert();
-
-// function textReplace() {
-
-//     var newMsg = document.getElementById('nav').childNodes[3].textContent;
-//     document.getElementById('nav').lastElementChild.textContent = newMsg;
-
-
-// } textReplace();
-
-
-//DOM METODI
-
-// function buildItem() {
+    // }
+    // newClass();
 
 
 
-//     var point1 = document.createElement("select");
-//     var finder = document.getElementById('nav');
-//     finder.appendChild(point1);
+    function screenAlert() {
+        var msg = document.getElementById('nav').firstElementChild.textContent;
+
+        alert(msg);
+
+    } screenAlert();
+
+    function textReplace() {
+
+        var newMsg = document.getElementById('nav').childNodes[3].textContent;
+        document.getElementById('nav').lastElementChild.textContent = newMsg;
 
 
-//     var arr1 = ['cat', 'dog', 'mouse'];
-//     for (var i = 0; i < arr1.length; i++) {
+    } textReplace();
 
-//         var option1 = document.createElement('option');
-//         var innerOptions = document.createTextNode(arr1[i]);
-//         option1.appendChild(innerOptions);
-//         point1.appendChild(option1);
 
-//     }
-// } buildItem();
+    //DOM METODI
+
+    // function buildItem() {
+
+
+
+    var point1 = document.createElement("select");
+    var finder = document.getElementById('nav');
+    finder.appendChild(point1);
+
+
+    var arr1 = ['cat', 'dog', 'mouse'];
+    for (var i = 0; i < arr1.length; i++) {
+
+        var option1 = document.createElement('option');
+        var innerOptions = document.createTextNode(arr1[i]);
+        option1.appendChild(innerOptions);
+        point1.appendChild(option1);
+
+    }
+} buildItem();
 
 // INNER METOD
 
