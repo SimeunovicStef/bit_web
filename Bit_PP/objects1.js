@@ -276,20 +276,55 @@ Output: 4
 // } console.log(oddChecker());
 
 function middleCounter(arrayInput) {
+    if (arrayInput.length % 2 === 0) {
+        return "Error!"
+    }
 
-    for (var j = 0; j < arrayInput.length; j++) {
+    var middleElmntIndex = Math.floor(arrayInput.length / 2);
+    var counter = 0;
 
-        if (arrayInput.length % 2 !== 0) {
-            var middleElmntIndex = ((arrayInput.length - 1) / 2) + 1;
-            for (var i = 0; i < arrayInput.length; i++) {
-                if (arrayInput[i] < arrayInput[middleElmntIndex]) {
-                    var counter = 0;
-                    counter++;
-                }
-            } return counter;
-        } else {
-            return 'error';
+    for (var i = 0; i < arrayInput.length; i++) {
+        if (arrayInput[i] < arrayInput[middleElmntIndex]) {
+            counter++;
         }
     }
 
-} console.log(middleCounter([-1, 8.1, 3, 6, 2.3, 44, 2.11]));
+    return counter;
+}
+console.log(middleCounter([-1, 8.1, 3, 6, 2.3, 44, 2.11]));
+
+
+
+// 4. 
+
+// Write a function that finds the smallest element of a given array.
+// The function should return an object that contains the smallest value and its last position in the array.
+// Input: [1, 4, -2, 11, 8, 1, -2, 3]
+// Output:  { minValue: -2, minLastIndex: 6 }
+
+'use strict'
+function finder(array) {
+
+    var forSort = array.slice();
+    var sorted = forSort.sort(function (a, b) {
+        return a - b;
+    })
+    var min = sorted[0];
+    var lastIndex = array.lastIndexOf(min);
+
+
+}
+
+function Function(min, lastIndex) {
+
+    this.minValue = min;
+    this.minLastIndex = lastIndex;
+}
+console.log(finder([1, 4, -2, 11, 8, 1, -2, 3]));
+
+
+
+
+
+
+
