@@ -213,7 +213,11 @@
 
 //BUILT IN OBJECTS 1
 
-//1
+//1. Zadatak Write a functional expression that duplicates each element of a given array.
+
+Input: [2, 4, 7, 11, -2, 1]
+Output: [2, 2, 4, 4, 7, 7, 11, 11, -2, -2, 1, 1]
+
 function duplicate(array1) {
     for (var i = 0; i < array1.length; i += 2) {
         array1.splice(i, 1, array1[i], array1[i]);
@@ -224,7 +228,11 @@ function duplicate(array1) {
 console.log(duplicate([2, 4, 7, 11, -2, 1]));
 
 
-//2
+//2. Zadatak Write a functional expression that removes all duplicates in a given array.
+
+// Input: [8, 13, 8, 9, 12, 8, 1, 1, 4, 13]
+// Output: [1, 4, 8, 9, 12, 13]
+
 function remove(array2) {
 
     array2.sort(function (a, b) {
@@ -241,3 +249,47 @@ function remove(array2) {
     return array2;
 }
 console.log(remove([8, 13, 8, 9, 12, 8, 1, 1, 4, 13]));
+
+
+
+// 3. Zadatak  Write a function that checks if a given array has odd number of elements.
+/* Input: [1, 2, 9, 2, 1]
+Output: true
+
+Write a function that counts the number of elements less than the middle element. 
+If the given array has an even number of elements, print out an error message.
+Input: [-1, 8.1, 3, 6, 2.3, 44, 2.11]
+Output: 4
+ */
+
+// function oddChecker() {
+//     var arrayInput = [1, 2, 9, 2];
+
+//     if (arrayInput.length % 2 !== 0) {
+//         return "true";
+
+//     }
+//     else {
+//         return "false";
+//     }
+
+// } console.log(oddChecker());
+
+function middleCounter(arrayInput) {
+
+    for (var j = 0; j < arrayInput.length; j++) {
+
+        if (arrayInput.length % 2 !== 0) {
+            var middleElmntIndex = ((arrayInput.length - 1) / 2) + 1;
+            for (var i = 0; i < arrayInput.length; i++) {
+                if (arrayInput[i] < arrayInput[middleElmntIndex]) {
+                    var counter = 0;
+                    counter++;
+                }
+            } return counter;
+        } else {
+            return 'error';
+        }
+    }
+
+} console.log(middleCounter([-1, 8.1, 3, 6, 2.3, 44, 2.11]));

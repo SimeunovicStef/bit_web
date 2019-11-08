@@ -3,6 +3,7 @@
 // function add(a, b) {
 //     c = a + b;
 //     return c;
+
 // }
 // var result = add(5, 9);
 // console.log(result);
