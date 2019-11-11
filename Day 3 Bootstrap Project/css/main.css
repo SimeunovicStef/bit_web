@@ -1,0 +1,266 @@
+@font-face {
+  font-family: 'Lato-Black';
+  src: url(../vendor/font-awesome/Lato-Black.ttf); }
+@font-face {
+  font-family: 'Lato-BlackItalic';
+  src: url(../vendor/font-awesome/Lato-BlackItalic.ttf); }
+@font-face {
+  font-family: 'Lato-Bold';
+  src: url(../vendor/font-awesome/Lato-Bold.ttf); }
+@font-face {
+  font-family: 'Lato-Hairline';
+  src: url(../vendor/font-awesome/Lato-Hairline.ttf); }
+@font-face {
+  font-family: 'Lato-HairlineItalic';
+  src: url(../vendor/font-awesome/Lato-HairlineItalic.ttf); }
+@font-face {
+  font-family: 'Lato-Italic';
+  src: url(../vendor/font-awesome/Lato-Italic.ttf); }
+@font-face {
+  font-family: 'Lato-Light';
+  src: url(../vendor/font-awesome/Lato-Light.ttf); }
+@font-face {
+  font-family: 'Lato-LightItalic';
+  src: url(../vendor/font-awesome/Lato-LightItalic.ttf); }
+@font-face {
+  font-family: 'Lato-Regular';
+  src: url(../vendor/font-awesome/Lato-Regular.ttf); }
+.dividerWhite, .dividerBlack {
+  position: relative;
+  display: block;
+  text-align: center;
+  margin: 0px auto;
+  width: 100%;
+  z-index: 1;
+  margin-top: -10px; }
+  .dividerWhite p, .dividerBlack p {
+    position: relative;
+    bottom: 6px;
+    margin: 0px;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    z-index: 3;
+    font-size: 3em;
+    padding: 1px;
+    border-radius: 50%; }
+  .dividerWhite div, .dividerBlack div {
+    display: inline-block;
+    position: relative;
+    border-bottom: solid 0.3em white;
+    bottom: 1em;
+    width: 25%;
+    z-index: 2; }
+
+.dividerBlack p {
+  color: black; }
+.dividerBlack div {
+  border-bottom: solid 0.3em black; }
+
+.titleWhite, .titleBlack {
+  font-family: 'Lato-Black';
+  color: white;
+  text-align: center; }
+
+.titleBlack {
+  color: black; }
+
+.cf:before {
+  content: "";
+  display: table; }
+.cf:after {
+  display: table;
+  content: "";
+  clear: both; }
+
+header div {
+  background-color: #18bc9c; }
+  header div img {
+    width: 100%; }
+  header div h1 {
+    font-family: 'Lato-Black', monospace;
+    color: white;
+    text-align: center;
+    font-size: 2em; }
+  header div h3 {
+    color: white;
+    text-align: center;
+    font-family: 'Lato-Light'; }
+
+main {
+  background-color: white;
+  padding: 15px;
+  color: black;
+  font-family: 'Lato-Bold', monospace;
+  font-size: large; }
+  main img {
+    width: 100%;
+    margin: 5px auto; }
+
+form {
+  width: 100%; }
+  form input {
+    float: left;
+    clear: left; }
+  form textarea {
+    margin-top: 5px;
+    margin-left: 12px;
+    float: left;
+    clear: left;
+    height: 160px; }
+
+.about {
+  background-color: #18bc9c;
+  color: white;
+  font-family: 'Lato-Light';
+  margin: 5px auto; }
+  .about > div > p {
+    padding: 0px 10px 10px;
+    margin: 0px;
+    margin-top: 14px; }
+  .about h1 {
+    padding: 30px 0 0 0;
+    margin: 0px; }
+
+.white {
+  background-color: white; }
+
+.green {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  color: white;
+  background-color: #18bc9c;
+  box-shadow: none;
+  border: solid 1px white;
+  margin-top: 20px;
+  margin-left: 150px;
+  margin-bottom: 40px;
+  padding: 10px 20px;
+  border-radius: 5%; }
+
+form input {
+  width: 90%;
+  padding: 20px;
+  border: 0px;
+  border-bottom: thin 5px black; }
+
+textarea {
+  width: 100%;
+  margin-top: 10px;
+  border: 0px;
+  height: 110px; }
+
+.send {
+  margin-left: 10px; }
+
+section.row.footer {
+  background-color: #2c3e50;
+  color: white;
+  text-align: center;
+  font-family: 'Lato-Light';
+  margin: 5px auto; }
+  section.row.footer > div > p {
+    padding: 0px 10px 10px;
+    margin: 0px;
+    margin-top: 14px;
+    text-align: center; }
+  section.row.footer h1 {
+    padding: 30px 0 0 0;
+    margin: 10px auto;
+    text-align: center; }
+    section.row.footer h1 .titleWhite, section.row.footer h1 .titleBlack {
+      text-align: center; }
+  section.row.footer p {
+    margin-top: 30px; }
+
+.effect {
+  width: 100%;
+  padding: 50px 0px 70px 0px;
+  background-color: #2c3e50; }
+  .effect h2 {
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 25px;
+    letter-spacing: 3px; }
+  .effect:nth-child(2) {
+    margin-top: 10px; }
+  .effect:nth-child(2n+1) {
+    background-color: #fff; }
+    .effect:nth-child(2n+1) h2 {
+      color: #2c3e50; }
+  .effect:nth-child(2n) a {
+    color: #fff;
+    border-color: #fff; }
+  .effect .buttons {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center; }
+
+/* styles for a common effect !!!YOU NEED THEM */
+.effect {
+  /*display: flex; !!!uncomment this line !!!*/ }
+  .effect a {
+    text-decoration: none !important;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-right: 20px;
+    font-size: 25px;
+    overflow: hidden;
+    position: relative;
+    color: #2c3e50;
+    border: 2px solid #2c3e50; }
+    .effect a i {
+      position: relative;
+      z-index: 3; }
+    .effect a:last-child {
+      margin-right: 0px; }
+    .effect a:before {
+      content: "";
+      display: inline-block;
+      height: 100%;
+      vertical-align: middle; }
+    .effect a i {
+      display: inline-block;
+      vertical-align: middle; }
+
+/* lavinia effect */
+.effect.lavinia a {
+  transition: border-top-color 0.2s linear 0s, border-right-color 0.2s linear 0.1s, border-bottom-color 0.2s linear 0.2s, border-left-color 0.2s linear 0.3s;
+  overflow: visible; }
+  .effect.lavinia a:hover {
+    border-color: rgba(255, 255, 255, 0); }
+  .effect.lavinia a:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: -2px;
+    left: -2px;
+    border: 2px dashed #fff;
+    position: absolute;
+    border-radius: 50%; }
+
+div.pos-f-t {
+  width: 100%; }
+
+@media all and (min-width: s 671px) {
+  .container:nth-child(3n) {
+    margin-right: 0; } }
+@media all and (max-width: 680px) and (max-width: 1200px) {
+  .container {
+    width: 48%; }
+
+  .container:nth-child(2n) {
+    margin-right: 0; } }
+@media all and (max-width: 520px) {
+  .container {
+    width: 100%;
+    margin: 0; } }
+
+/*# sourceMappingURL=main.css.map */

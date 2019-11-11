@@ -1,21 +1,34 @@
+
+div.row.bcn {
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-end;
+
+}
+
+
+div.col-1 {
+ justify-content: flex-end;
+}
+
 .bcn {
     background-color: brown;
     color: white;
 }
 .no-gutters {
-    margin-right: 0;
-    margin-left: 0;
+  margin-right: 0;
+  margin-left: 0;
+
   
-    
-      padding-right: 0;
-      padding-left: 0;
-    }
-  .pg {
-      padding-right: 58px;
+    padding-right: 0;
+    padding-left: 0;
   }
+.pg {
+    padding-right: 58px;
+}
   #box1 {
     padding-top: 20px;
-      background-color: 
+       
   }
   #box2 {
       padding-top: 20px;
