@@ -1,0 +1,21 @@
+.border {
+    border-bottom: 1px solid black;
+}
+
+span{
+    
+    color: red
+}
+.font1 {
+    color:green;
+}
+
+.txt{
+
+text-transform: uppercase;
+}
+
+.bgc{
+    background: violet;
+}
+
