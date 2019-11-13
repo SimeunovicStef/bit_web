@@ -16,11 +16,28 @@
 
 $(function () {
 
-    var link = ['https://i.stack.imgur.com/RxMjZ.png', 'https://en.wikipedia.org/wiki/Portal:Gardening/Selected_picture/7#/media/File:Crops_Kansas_AST_20010624.jpg'];
-    var slika = $("<img>").attr('src')
+    var link = ["https://rusregister.ru/wp-content/uploads/2018/11/lesnaya-sertifikatsiya.jpg", "https://images.unsplash.com/photo-1508138221679-760a23a2285b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80", "https://www.setaswall.com/wp-content/uploads/2017/03/Road-Top-View-Grass-Wallpaper-2560x1600.jpg"]
+    var body = $('body')
+    var div = $("<div>")
 
-    for (i = 0; i < link.length; i++) {
-        slika[i] = link[i];
+    for (var i = 0; i < link.length; i++) {
+        slika = $("<img>").attr("src", link[i])
+        var duzina = Math.floor(Math.random() * 400) + 200
+        slika.css("width", duzina)
+
+        div.append(slika)
+        if (duzina < 300) {
+            slika.css("border", "5px solid red")
+
+        }
+
+
+
+
     }
 
+    body.append(div)
+
+
 });
+
