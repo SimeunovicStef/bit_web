@@ -19,3 +19,9 @@ text-transform: uppercase;
     background: violet;
 }
 
+.selected {
+    border: 10px solid red;
+}
+img {
+    width:33%;
+}

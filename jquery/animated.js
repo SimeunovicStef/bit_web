@@ -1,36 +1,64 @@
 $(function () {
-    var link1 = "./images/sub1.jpg";
-    var link2 = "./images/sub2.jpg";
-    var link3 = "./images/sub3.jpg";
-    var link4 = "./images/copter1.jpg";
-    var link5 = "./images/copter2.jpg";
-    var link6 = "./images/copter3.jpg";
-    var subs = [link1, link2, link3, link4, link5, link6];
-    var $div = $('div');
+    $('div').children().next().first().removeClass()
+
+
+    $('div').children().next().children().next().first().addClass('selected')
+});
+
+$(function () {
+    $('.jcarousel').jcarousel({
+        // Core configuration goes here
+    });
+
+    $('.jcarousel-prev').jcarouselControl({
+        target: '-=1'
+    });
+
+    $('.jcarousel-next').jcarouselControl({
+        target: '+=1'
+    });
+});
+    // var link1 = "./images/sub1.jpg";
+    // var link2 = "./images/sub2.jpg";
+    // var link3 = "./images/sub3.jpg";
+    // var link4 = "./images/copter1.jpeg";
+    // var link5 = "./images/copter2.jpg";
+    // var link6 = "./images/copter3.jpg";
+    // var subs = [link1, link2, link3, link4, link5, link6];
+    // var div = $('<div>');
+
+    // for (var i = 0; i < subs.length; i++) {
+    //     var randomWidth = Math.floor(Math.random() * 300) + 100;
+
+    //     var $image = $('<img>')
+    //         .attr("src", subs[i])
+    //         .width(randomWidth)
+
+    //     div.append($image)
+
+
+    //     $('body').append(div);
+    //     $('')
+    //     var addingBorder = true;
+    // }
+    // $('img').each(function (i, $image) {
+
+    //     if (addingBorder && randomWidth < 300) {
+    //         $image.style.border = '10px solid black'
+
+    //     }
+    //     else {
+    //         addingBorder = false;
+    //     }
+
+
+    // });
 
 
 
-    for (var i = 0; i < subs.length; i++) {
-   var randomWidth = Math.floor(Math.random()*300) + 100;
 
-   var $image = $('<img>')
-   .attr("src", subs[i])
-   .width(randomWidth)
 
-   $div.append($image)
-    }
-    $('body').append($div);
-    var addingBorder = true;
-    $('img').each(function (i, image) {
 
-        if (addingBorder && w<300) {
-        image.style.border = '10px solid black'
-        
-    }
-        else {
-            addingBorder = false;
-        }
-}()
 
 
 
