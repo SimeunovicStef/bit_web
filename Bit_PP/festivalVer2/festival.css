@@ -1,0 +1,48 @@
+div {
+    width: 80%;
+    margin:  50px auto;
+    border : 3px solid grey;
+    padding: 10px;
+}
+
+button {
+    background-color: green;
+    border: double 5px #cee6fe;
+    width:100%;
+    height: 40px;
+    color:white;
+    font-size: 20px;
+    padding:10px;
+    border-radius: 6px;
+}
+
+input {
+    font-size: 20px;
+    width: 100%;
+    height:50px;
+    margin: 5px 0;
+
+}
+
+label {
+    font-size: 20px;
+}
+
+select {
+    font-size:20px;
+    width:100%;
+    height: 50px;
+    background-color: beige;
+    margin: 5px 0;
+}
+
+span {
+    color:red;
+}
+p {
+    text-align:left;
+}
+
+.wrongInput {
+    border: 2px solid red;
+}

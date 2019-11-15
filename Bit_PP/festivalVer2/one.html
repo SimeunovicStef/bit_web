@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>festival 2</title>
+    <link rel="stylesheet" href="./festival.css" type="text/css">
+</head>
+
+<body>
+    <div class="inputMovie">
+        <label for="title">Title</label><br>
+        <input type="text" name="title" class="title"><br>
+        <label for="length">Length(min)</label><br>
+        <input type="text" name="length" class="length"><br>
+        <select name="genre" class="genre"><br>
+            <option value="drama">Drama</option>
+            <option value="action">Action</option>
+            <option value="crime">Crime</option>
+            <option value="science fiction">Science Fiction</option>
+            <option value="comedy">Comedy</option>
+            <option value="horror">Horror</option>
+            <option value="thriller">Thriller</option>
+            <option value="adventure">Adventure</option>
+
+
+
+        </select><br>
+        <span class="error"></span><br>
+        <button class="movie">Create movie</button>
+        <ul class="moviesDisplayList"></ul>
+        <p></p>
+    </div>
+    <div class="inputProgram">
+        <label for="date"> Date </label>
+        <input type="date" name="date" id="date">
+        <button class="program">Create program</button>
+        <ul class="programDisplayList"></ul>
+        <label for="">Movie</label>
+        <select name="movie" id="movie" class="movie"></select>
+        <label for="">Program</label>
+        <select name="program" id="program" class="program"></select>
+        <button class="addMovie">Add Movie to Program</button>
+    </div>
+
+
+
+    <script type="text/javascript" src="app3.js">
+    </script>
+</body>
+
+</html>

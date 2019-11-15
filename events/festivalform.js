@@ -1,9 +1,12 @@
+'use strict'
+
 document.querySelector('.clicker').addEventListener('click', addEventOnClick)
 
 function addEventOnClick() {
     var filmData = collectionFormData()
-    if (!document.querySelector('.titlefield').value || !document.querySelector('.lenghtfield').value) {
+    if (document.querySelector('.titlefield').value === "" || document.querySelector('.lengthfield').value === "") {
         document.querySelector('.error').textContent = "Enter title and length!!!"
+
     }
     else {
 
