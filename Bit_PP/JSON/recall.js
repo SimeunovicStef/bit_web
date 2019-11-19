@@ -1,7 +1,7 @@
 var $button = document.querySelector('button');
 
 $button.addEventListener('click', function () {
-    // var repoName = 'dingo'
+
     var url = 'https://dog.ceo/api/breeds/image/random';
 
     var ajax = new XMLHttpRequest();
@@ -9,16 +9,16 @@ $button.addEventListener('click', function () {
 
     ajax.addEventListener('load', function () {
         const data = JSON.parse(ajax.responseText);
+        const link = data.message
 
 
-        var img = 
 
-        const $link = document.createElement('a')
-        $link.setAttribute('href', img);
-        $link.textContent = $repo.name
+        const image = document.createElement('img')
+        image.setAttribute('src', link);
+
 
         document.querySelector('body')
-            .append($link)
+            .append(image)
 
 
     })
