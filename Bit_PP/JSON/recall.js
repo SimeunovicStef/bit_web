@@ -2,9 +2,9 @@ var $button = document.querySelector('button');
 
 $button.addEventListener('click', function () {
 
-    var url = 'https://dog.ceo/api/breeds/image/random';
+    const url = 'https://dog.ceo/api/breeds/image/random';
 
-    var ajax = new XMLHttpRequest();
+    const ajax = new XMLHttpRequest();
     ajax.open("GET", url);
 
     ajax.addEventListener('load', function () {
