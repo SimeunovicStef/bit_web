@@ -1,0 +1,47 @@
+.header {
+  height: 50px;
+  padding: 10px; }
+  .header div {
+    padding: 10px;
+    text-align: left;
+    color: white;
+    background-color: #343a40; }
+  .header input {
+    float: right;
+    border-radius: 5px; }
+
+h2 {
+  text-align: center;
+  height: 50px;
+  margin-top: 20px; }
+
+.footer div {
+  text-align: center;
+  padding: 10px;
+  color: white;
+  background-color: #343a40; }
+
+ul {
+  list-style-type: none;
+  width: 100%;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; }
+
+.menu {
+  box-shadow: 2px 2px 12px 5px grey;
+  width: 180px;
+  display: none;
+  padding: 5px;
+  list-style-type: none;
+  position: absolute;
+  background-color: white;
+  top: 50px;
+  z-index: 2;
+  right: 8px;
+  color: black; }
+  .menu li:hover {
+    background-color: yellow; }
+
+/*# sourceMappingURL=style.css.map */
